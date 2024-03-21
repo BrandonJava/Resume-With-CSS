@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+        .navbar-custom {
+    background-color: #DBE2EF;
+    
+    }
+
+    .white {
+        background-color: #F9F7F7;
+        height: 20vh;
+    }
+
+    .navigationbar{
+        height: 10vh;
+    }
+
+    .about{
+        height: 60vh;
+    }
+
+
+    .darkblue{
+        color: #112D4E;
+        font-family: "Cardo", serif;
+        font-weight: Bold;
+        font-style: normal;
+    }
+
+    .blue{
+        color: #3F72AF;
+        font-family: "Cardo", serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+
+    body{
+        background-color: #DBE2EF;
+    }
+
+    footer{
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+    }
+
+    p { 
+        text-indent: 40px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    h3 { 
+        text-indent: 40px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    </style>
+</head>
+<body>
+    <section class="navigationbar">
+        <nav class="navbar border-bottom border-dark navbar-custom navbar-expand-lg">
+            <div class="container-fluid">
+              <a class="navbar-brand darkblue" href="./index.html"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#112D4E" class="bi bi-plugin" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M1 8a7 7 0 1 1 2.898 5.673c-.167-.121-.216-.406-.002-.62l1.8-1.8a3.5 3.5 0 0 0 4.572-.328l1.414-1.415a.5.5 0 0 0 0-.707l-.707-.707 1.559-1.563a.5.5 0 1 0-.708-.706l-1.559 1.562-1.414-1.414 1.56-1.562a.5.5 0 1 0-.707-.706l-1.56 1.56-.707-.706a.5.5 0 0 0-.707 0L5.318 5.975a3.5 3.5 0 0 0-.328 4.571l-1.8 1.8c-.58.58-.62 1.6.121 2.137A8 8 0 1 0 0 8a.5.5 0 0 0 1 0"/>
+              </svg> Etchison Designs</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse darkblue" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link blue" aria-current="page" href="./pages/resume.html">Resume</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link blue" href="./pages/featuredwork.html">Featured Projects</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle blue" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Dropdown
+                    </a>
+                    <ul class="dropdown-menu blue">
+                      <li><a class="dropdown-item blue" href="./pages/about.html">About Me</a></li>
+                      <li><a class="dropdown-item blue" href="./pages/Contact Info.html">Contact Information</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </section>
+
+    <section class="about">
+        <h3 class="mt-5 display-6 fw-bold lh-1 mb-3 blue">Personal Life</h3>
+        <p class=" mt-4 lh-2 darkblue">First and foremost, I am a follower of Jesus Christ. One of my biggest goals is to spread His love and kindness to needy communities. The world can always use some extra compassion and mercy with less judgment. I have a wife and two daughters. Because of this, I prefer to work from home to be an active part of their lives. My daughters are Mabel, three years old, and Lily, three months old. I have been married for almost six years, and my wife and I lead a group that helps struggling couples. I enjoy video games, board games, and card games. I am between games and waiting for Path of Exile 2 to be released. Regarding board games, Dominion is my favorite, although it is hard to choose. I am also a fan of Magic the Gathering.</p>
+        <p class="mt-5 mb-5 pb-2 border-bottom border-dark"></p>
+        <h3 class="mt-4 display-6 fw-bold lh-1 mb-3 blue">Work Life</h3>
+        <p class="mt-4 lh-2 darkblue">I have been a Web Developer for 11 years now, focusing on Java and backend systems. I have mentored many people over the years and like to periodically check in on them and see if they are successful or need any help. I am currently dabbling with more front-end development as the UI frameworks I have worked on in the past are a bit dated now. I have been in Java backend development my whole career; I enjoy programming as it fills the need to create and problem-solve uniquely. While I may only sometimes be looking for work, I am always open to hearing about opportunities. I am more than willing to suggest to others if something is a better fit for them or if I have too much on my plate.</p>
+    </section>
+
+<section class="Footer white border-top border-dark">
+    <div class="container white">
+        <footer class="white">
+          <ul class="nav justify-content-center border-bottom border-dark pb-3 mb-3">
+            <li class="nav-item"><a href="./index.html" class="nav-link px-2 fw-bold blue">Home</a></li>
+            <li class="nav-item"><a href="./pages/featuredwork.html" class="nav-link px-2 fw-bold blue">Featured Projects</a></li>
+            <li class="nav-item"><a href="./pages/resume.html" class="nav-link px-2 fw-bold blue">Resume</a></li>
+            <li class="nav-item"><a href="./pages/about.html" class="nav-link px-2 fw-bold blue">About</a></li>
+            <li class="nav-item"><a href="./pages/Contact Info.html" class="nav-link px-2 fw-bold blue">Contact Information</a></li>
+          </ul>
+          <p class="text-center fw-bold blue">©Etchison Designs 2024</p>
+        </footer>
+      </div>
+</section>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

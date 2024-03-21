@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--
+        Palette: 
+        #F9F7F7 White
+        #DBE2EF Light blue
+        #3F72AF Blue
+        #112D4E Dark blue
+    -->
+    <meta charset="UTF-8">
+    <title>My Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+        .navbar-custom {
+    background-color: #DBE2EF;
+    }
+
+    .white {
+        background-color: #F9F7F7;
+    }
+
+    .darkblue{
+        color: #112D4E;
+        font-family: "Cardo", serif;
+        font-weight: Bold;
+        font-style: normal;
+    }
+
+    .blue{
+        color: #3F72AF;
+        font-family: "Cardo", serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    .previous-work{
+        background-color: #DBE2EF;
+    }
+
+    body{
+        background-color: #DBE2EF;
+    }
+
+    .work-section{
+        text-align: center;
+    }
+    </style>
+</head>
+<body class="d-flex flex-column h-100">
+    <section class="navigationbar">
+        <nav class="navbar navbar-custom navbar-expand-lg border-bottom border-dark">
+            <div class="container-fluid">
+              <a class="navbar-brand darkblue" href="./index.html"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#112D4E" class="bi bi-plugin" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M1 8a7 7 0 1 1 2.898 5.673c-.167-.121-.216-.406-.002-.62l1.8-1.8a3.5 3.5 0 0 0 4.572-.328l1.414-1.415a.5.5 0 0 0 0-.707l-.707-.707 1.559-1.563a.5.5 0 1 0-.708-.706l-1.559 1.562-1.414-1.414 1.56-1.562a.5.5 0 1 0-.707-.706l-1.56 1.56-.707-.706a.5.5 0 0 0-.707 0L5.318 5.975a3.5 3.5 0 0 0-.328 4.571l-1.8 1.8c-.58.58-.62 1.6.121 2.137A8 8 0 1 0 0 8a.5.5 0 0 0 1 0"/>
+              </svg> Etchison Designs</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse darkblue" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link blue" aria-current="page" href="./pages/resume.html">Resume</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link blue" href="./pages/featuredwork.html">Featured Projects</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle blue" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Dropdown
+                    </a>
+                    <ul class="dropdown-menu blue">
+                      <li><a class="dropdown-item blue" href="./pages/about.html">About Me</a></li>
+                      <li><a class="dropdown-item blue" href="./pages/Contact Info.html">Contact Information</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </section>
+
+    <section class="title white border-bottom border-dark">        
+        <div class="container col-xxl-8 px-4 py-5" >
+            <div class="row flex-lg-reverse align-items-center g-5 py-5">
+              <div class="col-10 col-sm-8 col-lg-6">
+                <img src="./Images/me.jpg" class="d-block mx-lg-auto img-fluid rounded-circle border border-2 border-dark" alt="Picture of Brandon Etchison with a blue butterfly that has landed on his scallycap" width="200" height="200" loading="lazy">
+              </div>
+              <div class="col-lg-6">
+                <h1 class="display-5 fw-bold lh-1 mb-3 darkblue pb-2 border-bottom border-dark" >Brandon John Etchison</h1>
+                <p class="lead blue">Senior Full-Stack Developer/Tech Team Leader</p>
+                <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                </div>
+              </div>
+            </div>
+          </div>
+    </section>
+
+    <section class="previous-work border-bottom border-dark">
+        <div class="container">
+            <h2 class="mt-5 display-6 lh-1 fw-bold blue work-section">Featured Projects</h2>
+        <p class="darkblue work-section pb-4 border-bottom border-1 border-dark">Due to the nature of my work and the security of my clients, the only pages of my previous work I can share are the login pages.</p>
+    </div>
+        <div class="album">
+            <div class="container">
+                
+              <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-3">
+                <div class="col">
+                    <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold blue">Enterprise Security Systems</h3>
+                  <div class="card shadow-sm">
+                    <svg class="bd-placeholder-img card-img-top" width="100%" height="0" xmlns="" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>ESS</title><img src="./Images/ESS.PNG" alt="" /> </svg>
+                    <div class="card-body">
+                      <p class="card-text darkblue">This is a security portal for other applications. This was designed to handle all external security when connecting to an application as well as roles and privileges within the down stream apps.</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                          <a type="button" href="./Images/ESS.PNG" class="btn btn-sm btn-outline-secondary darkblue">View</a>
+                          <a type="button" href="https://www.firstdataeservices.com" class="btn btn-sm btn-outline-secondary darkblue">Visit</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                    <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold blue">Solution Builder</h3>
+                  <div class="card shadow-sm">
+                    <svg class="bd-placeholder-img card-img-top" width="100%" height="0" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><img src="./Images/SolutionBuilder.PNG" alt="Solution Builder Login Page" /></svg>
+                    <div class="card-body">
+                      <p class="card-text darkblue">A credit card processing application with custom design options, designed for clients to pick and choose what their payment site looks like.</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                          <a type="button" href="./Images/SolutionBuilder.PNG" class="btn btn-sm btn-outline-secondary darkblue">View</a>
+                          <a type="button" href="https://www.fsdsapps.com" class="btn btn-sm btn-outline-secondary darkblue">Visit</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                    <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold blue">Enterprise Creditcard Services</h3>
+                  <div class="card shadow-sm">
+                    <svg class="bd-placeholder-img card-img-top" width="100%" height="0" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><img src="./Images/ECS.PNG" alt="Generic ECS Login Page" /></svg>
+                    <div class="card-body">
+                      <p class="card-text darkblue">A credit card processing application with custom design options, designed for clients to pick and choose what their payment site looks like. I cannot provide a login page for this application because it varied from client to client and has no production template page to showcase.</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                          <a type="button" href="./Images/ECS.PNG" class="btn btn-sm btn-outline-secondary darkblue">View</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+        
+                <div class="col">
+                    <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold blue">Grant Solutions</h3>
+                  <div class="card shadow-sm">
+                    <svg class="bd-placeholder-img card-img-top" width="100%" height="0" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><img src="./Images/GMM.png" alt="Grant Solutions Login Page" /></svg>
+                    <div class="card-body">
+                      <p class="card-text darkblue">A slew of applications surrounding government grants. Including funding, processing, awards, planning, and other services.</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                          <a type="button" href="./Images/GMM.png" class="btn btn-sm btn-outline-secondary darkblue">View</a>
+                          <a type="button" href="https://home.grantsolutions.gov/home" class="btn btn-sm btn-outline-secondary darkblue">Visit</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            </div>
+          </div>
+    </section>
+
+    <section class="Footer white">
+        <div class="container">
+            <footer>
+              <ul class="nav justify-content-center border-bottom border-dark pb-3 mb-3">
+                <li class="nav-item"><a href="./index.html" class="nav-link px-2 fw-bold blue">Home</a></li>
+                <li class="nav-item"><a href="./pages/featuredwork.html" class="nav-link px-2 fw-bold blue">Featured Projects</a></li>
+                <li class="nav-item"><a href="./pages/resume.html" class="nav-link px-2 fw-bold blue">Resume</a></li>
+                <li class="nav-item"><a href="./pages/about.html" class="nav-link px-2 fw-bold blue">About</a></li>
+                <li class="nav-item"><a href="./pages/Contact Info.html" class="nav-link px-2 fw-bold blue">Contact Information</a></li>
+              </ul>
+              <p class="text-center fw-bold blue">©Etchison Designs 2024</p>
+            </footer>
+          </div>
+    </section>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
