@@ -48,13 +48,25 @@
     .work-section{
         text-align: center;
     }
+
+    .btn-custom{
+      background-color: #DBE2EF;
+      box-shadow: 0px 0px 2px 2px rgb(63, 114, 175);
+    }
+
+    .btn-custom:hover{
+      background-color: #112D4E;
+      box-shadow: 0px 0px 2px 2px rgb(17,45,78);
+      color:#F9F7F7;
+    }
+
     </style>
 </head>
 <body class="d-flex flex-column h-100">
     <section class="navigationbar">
         <nav class="navbar navbar-custom navbar-expand-lg border-bottom border-dark">
             <div class="container-fluid">
-              <a class="navbar-brand darkblue" href="./index.html"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#112D4E" class="bi bi-plugin" viewBox="0 0 16 16">
+              <a class="navbar-brand darkblue" href="https://brandonjava.github.io/Resume-With-CSS/"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#112D4E" class="bi bi-plugin" viewBox="0 0 16 16">
                 <path fill-rule="evenodd" d="M1 8a7 7 0 1 1 2.898 5.673c-.167-.121-.216-.406-.002-.62l1.8-1.8a3.5 3.5 0 0 0 4.572-.328l1.414-1.415a.5.5 0 0 0 0-.707l-.707-.707 1.559-1.563a.5.5 0 1 0-.708-.706l-1.559 1.562-1.414-1.414 1.56-1.562a.5.5 0 1 0-.707-.706l-1.56 1.56-.707-.706a.5.5 0 0 0-.707 0L5.318 5.975a3.5 3.5 0 0 0-.328 4.571l-1.8 1.8c-.58.58-.62 1.6.121 2.137A8 8 0 1 0 0 8a.5.5 0 0 0 1 0"/>
               </svg> Etchison Designs</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -112,12 +124,13 @@
                     <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold blue">Enterprise Security Systems</h3>
                   <div class="card shadow-sm">
                     <svg class="bd-placeholder-img card-img-top" width="100%" height="0" xmlns="" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>ESS</title><img src="./Images/ESS.PNG" alt="" /> </svg>
-                    <div class="card-body">
-                      <p class="card-text darkblue">This is a security portal for other applications. This was designed to handle all external security when connecting to an application as well as roles and privileges within the down stream apps.</p>
-                      <div class="d-flex justify-content-between align-items-center">
-                        <div class="btn-group">
-                          <a type="button" href="./Images/ESS.PNG" class="btn btn-sm btn-outline-secondary darkblue">View</a>
-                          <a type="button" href="https://www.firstdataeservices.com" class="btn btn-sm btn-outline-secondary darkblue">Visit</a>
+                    <div class="card-body white">
+                      <p class="card-text darkblue white">This is a security portal for other applications. This was designed to handle all external security when connecting to an application as well as roles and privileges within the down stream apps.</p>
+                      <div class="justify-content-between align-items-center">
+                        <div class="btn-toolbar justify-content-between">
+                          <a type="button" href="./Images/ESS.PNG" class="btn btn-sm btn-custom btn-outline-secondary darkblue">View</a>
+                          <a type="button" href="./pages/featuredwork.html#ESS" class="btn btn-sm btn-custom btn-outline-secondary darkblue">Details</a>
+                          <a type="button" href="https://www.firstdataeservices.com" class="btn btn-sm btn-custom btn-outline-secondary darkblue">Visit</a>
                         </div>
                       </div>
                     </div>
@@ -127,12 +140,13 @@
                     <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold blue">Solution Builder</h3>
                   <div class="card shadow-sm">
                     <svg class="bd-placeholder-img card-img-top" width="100%" height="0" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><img src="./Images/SolutionBuilder.PNG" alt="Solution Builder Login Page" /></svg>
-                    <div class="card-body">
-                      <p class="card-text darkblue">A credit card processing application with custom design options, designed for clients to pick and choose what their payment site looks like.</p>
-                      <div class="d-flex justify-content-between align-items-center">
-                        <div class="btn-group">
-                          <a type="button" href="./Images/SolutionBuilder.PNG" class="btn btn-sm btn-outline-secondary darkblue">View</a>
-                          <a type="button" href="https://www.fsdsapps.com" class="btn btn-sm btn-outline-secondary darkblue">Visit</a>
+                    <div class="card-body white">
+                      <p class="card-text darkblue white">A credit card processing application with custom design options, designed for clients to pick and choose what their payment site looks like.</p>
+                      <div class="justify-content-between align-items-center">
+                        <div class="btn-toolbar justify-content-between">
+                          <a type="button" href="./Images/SolutionBuilder.PNG" class="btn btn-sm btn-custom btn-outline-secondary darkblue">View</a>
+                          <a type="button" href="./pages/featuredwork.html#BSL1" class="btn btn-sm btn-custom btn-outline-secondary darkblue">Details</a>
+                          <a type="button" href="https://www.fsdsapps.com" class="btn btn-sm btn-custom btn-outline-secondary darkblue">Visit</a>
                         </div>
                       </div>
                     </div>
@@ -140,13 +154,15 @@
                 </div>
                 <div class="col">
                     <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold blue">Enterprise Creditcard Services</h3>
-                  <div class="card shadow-sm">
+                  <div class="card shadow-sm mb-5">
                     <svg class="bd-placeholder-img card-img-top" width="100%" height="0" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><img src="./Images/ECS.PNG" alt="Generic ECS Login Page" /></svg>
-                    <div class="card-body">
-                      <p class="card-text darkblue">A credit card processing application with custom design options, designed for clients to pick and choose what their payment site looks like. I cannot provide a login page for this application because it varied from client to client and has no production template page to showcase.</p>
-                      <div class="d-flex justify-content-between align-items-center">
-                        <div class="btn-group">
-                          <a type="button" href="./Images/ECS.PNG" class="btn btn-sm btn-outline-secondary darkblue">View</a>
+                    <div class="card-body white">
+                      <p class="card-text darkblue white">A credit card processing application with custom design options, designed for clients to pick and choose what their payment site looks like. I cannot provide a login page for this application because it varied from client to client and has no production template page to showcase.</p>
+                      <div class="justify-content-between align-items-center">
+                        <div class="btn-toolbar justify-content-between">
+                          
+                          <a type="button" href="./Images/ECS.PNG" class="btn btn-sm btn-custom btn-outline-secondary darkblue">View</a>
+                          <a type="button" href="./pages/featuredwork.html#ECS" class="btn btn-sm btn-custom btn-outline-secondary darkblue">Details</a>
                         </div>
                       </div>
                     </div>
@@ -157,12 +173,13 @@
                     <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold blue">Grant Solutions</h3>
                   <div class="card shadow-sm">
                     <svg class="bd-placeholder-img card-img-top" width="100%" height="0" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><img src="./Images/GMM.png" alt="Grant Solutions Login Page" /></svg>
-                    <div class="card-body">
-                      <p class="card-text darkblue">A slew of applications surrounding government grants. Including funding, processing, awards, planning, and other services.</p>
-                      <div class="d-flex justify-content-between align-items-center">
-                        <div class="btn-group">
-                          <a type="button" href="./Images/GMM.png" class="btn btn-sm btn-outline-secondary darkblue">View</a>
-                          <a type="button" href="https://home.grantsolutions.gov/home" class="btn btn-sm btn-outline-secondary darkblue">Visit</a>
+                    <div class="card-body white">
+                      <p class="card-text darkblue white">A slew of applications surrounding government grants. Including funding, processing, awards, planning, and other services.</p>
+                      <div class="justify-content-between align-items-center">
+                        <div class="btn-toolbar justify-content-between">
+                          <a type="button" href="./Images/GMM.png" class="btn btn-sm btn-custom btn-outline-secondary darkblue">View</a>
+                          <a type="button" href="./pages/featuredwork.html#GMM" class="btn btn-sm btn-custom btn-outline-secondary darkblue">Details</a>
+                          <a type="button" href="https://home.grantsolutions.gov/home" class="btn btn-sm btn-custom btn-outline-secondary darkblue">Visit</a>
                         </div>
                       </div>
                     </div>
@@ -177,11 +194,12 @@
         <div class="container">
             <footer>
               <ul class="nav justify-content-center border-bottom border-dark pb-3 mb-3">
-                <li class="nav-item"><a href="./index.html" class="nav-link px-2 fw-bold blue">Home</a></li>
+                <li class="nav-item"><a href="https://brandonjava.github.io/Resume-With-CSS/" class="nav-link px-2 fw-bold blue">Home</a></li>
                 <li class="nav-item"><a href="./pages/featuredwork.html" class="nav-link px-2 fw-bold blue">Featured Projects</a></li>
                 <li class="nav-item"><a href="./pages/resume.html" class="nav-link px-2 fw-bold blue">Resume</a></li>
                 <li class="nav-item"><a href="./pages/about.html" class="nav-link px-2 fw-bold blue">About</a></li>
                 <li class="nav-item"><a href="./pages/Contact Info.html" class="nav-link px-2 fw-bold blue">Contact Information</a></li>
+                <li class="nav-item"><a href="./pages/Brandon Etchison's Resume.pdf" class="nav-link px-2 fw-bold blue">PDF formatted Resume</a></li>
               </ul>
               <p class="text-center fw-bold blue">©Etchison Designs 2024</p>
             </footer>
